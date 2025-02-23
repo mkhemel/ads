@@ -32,7 +32,7 @@ body{
     position: absolute;
     right: calc(50% + 20px);
     bottom: calc(10% + 100px);
-    width: 30%;
+    width: 37%;
     background: transparent;
     color: #fff;
     display: flex;
@@ -41,7 +41,7 @@ body{
     font-size: 1.5em;
     font-weight: 700;
     text-align: center;
-    rotate: -25deg;
+    rotate: -15deg;
     animation: bounceInDown 1s;
 }
 
@@ -55,7 +55,7 @@ body{
     position: absolute;
     left: calc(50% + 20px);
     bottom: calc(10% + 100px);
-    width: 30%;
+    width: 37%;
     background: transparent;
     color: #fff;
     display: flex;
@@ -64,7 +64,7 @@ body{
     font-size: 1.5em;
     font-weight: 700;
     text-align: center;
-    rotate: 25deg;
+    rotate: 15deg;
     animation: bounceInDown 1s;
 }
 
