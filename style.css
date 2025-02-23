@@ -1,0 +1,61 @@
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    height: 100%;
+    max-width: 700px;
+    font-family: 'Roboto', sans-serif;
+    background: url("./bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.stand{
+ position: absolute;
+    bottom: 10%;
+    width: 85%;
+    left: 7.5%;
+}
+
+.phone-left{
+    position: absolute;
+    right: calc(50% + 20px);
+    bottom: calc(10% + 100px);
+    width: 30%;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    rotate: -25deg;
+}
+
+.phone-right{
+    position: absolute;
+    left: calc(50% + 20px);
+    bottom: calc(10% + 100px);
+    width: 30%;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    rotate: 25deg;
+}
