@@ -42,7 +42,7 @@ body{
     font-weight: 700;
     text-align: center;
     rotate: -15deg;
-    animation: bounceInDown 1s;
+    animation: bounceInDown 1s, rotateLeft 2s infinite;
 }
 
 .phone-left img,
@@ -65,7 +65,27 @@ body{
     font-weight: 700;
     text-align: center;
     rotate: 15deg;
-    animation: bounceInDown 1s;
+    animation: bounceInDown 1s, rotateRight 2s infinite;
+
+}
+
+@keyframes rotateRight {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-7deg);
+    }
+}
+
+@keyframes rotateLeft {
+    0%, 100% {
+        transform: rotate(-7deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+
 }
 
 @keyframes bounceInDown {
